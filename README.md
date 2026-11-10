@@ -24,10 +24,7 @@ Este projeto tem como objetivo colocar em prática meus aprendizados na minha p�
 ## Principais resultados:
 Foram avaliadas diferentes abordagens de classificação, considerando o desbalanceamento entre as classes.
 A Regressão Logística apresentou ROC-AUC de 0,960, enquanto o Random Forest apresentou ROC-AUC de 0,959 e PR-AUC de 0,852.
-O Random Forest foi escolhido como modelo principal, apresentando:
-- Precision: 0,947
-- Recall: 0,690
-- F1-score: 0,799
+Nenhum dos modelos apresentou desempenho superior em todas as métricas. A escolha depende do objetivo da aplicação e da importância atribuída aos falsos positivos e falsos negativos. Em um contexto de triagem de diabetes, por exemplo, um recall mais elevado pode ser desejável para reduzir a quantidade de casos positivos não identificados.
 
 ## Limitações:
 Este projeto foi desenvolvido para fins de estudo. Portanto, os resultados não devem ser utilizados na prática clínica para diagnosticar diabetes, pois os modelos ainda precisariam de validações adicionais.
